@@ -4,13 +4,13 @@
 
 # Hier komt je code...
 x = 1
-y = ...
-print( ... )
+y = x * 8
+print(f"De uitkomst is: {y}")
 
 x = 2
-y = ...
-print( ... )
+y = x + 43
+print(f"De uitkomst is: {y}")
 
 x = 0
-y = ...
-print( ... )
+y = x + 1
+print(f"De uitkomst is: {y}")
