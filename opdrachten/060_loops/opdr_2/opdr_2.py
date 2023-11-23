@@ -8,3 +8,7 @@
 
 my_list = []
 
+for nummer in range(10, 51, 10):
+    my_list.append(nummer)
+
+print(my_list)
