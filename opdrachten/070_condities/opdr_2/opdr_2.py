@@ -8,6 +8,11 @@
 
 my_list = [43948, 878768, 38768, 87555, 765765]
 
+for nummers in my_list:
+    #deelbaar door 3
+    if nummers % 3 == 0:
+        print(nummers)
+
 # for...:
 #   if...:
 #       print()
