@@ -10,7 +10,7 @@ geheim_getal = random.randint(1, 100)
 pogingen = 0
 
 while True:
-    gebruikers_getal = int(input("raad mijn geheime getal: "))
+    gebruikers_getal = int(input("raad het geheime getal: "))
     pogingen += 1
     
     if gebruikers_getal == geheim_getal:
