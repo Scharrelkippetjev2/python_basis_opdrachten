@@ -1,11 +1,22 @@
 # Opdracht 1 functies
-# Naam student:
-# Groep:
+# Naam student: Jsj
+# Groep: ITx1
 
 
 def write_to_file(afile, atext):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+    prompt_1 = "Zet hier wat tekst"
+    active = True
+    lst = []
+    while active:
+        message = input(prompt_1)
+        if message == input():
+            active = False
+            fo = open('text.txt', 'at')
+            for i in lst:
+                fo.write(i + "\n")
+            fo.close()
+        else:
+            lst.append(message)
     pass
 
 my_tekst = "Schrijf dit maar even in een bestandje"
