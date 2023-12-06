@@ -1,16 +1,15 @@
 # Opdracht 1 functies
-# Naam student:
-# Groep:
+# Naam student: JsJ
+# Groep:  ITX1
 
+import math
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+    return(f"De inhoud van deze kubus is: {zijde ** 3}")
     pass
 
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+    return(f"De inhoud van deze bol is: {4/3 * math.pi * (radius ** 3)}")
     pass
 
 zijde = 5
