@@ -1,17 +1,13 @@
 # Opdracht 1 functies
-# Naam student:
-# Groep:
+# Naam student: JsJ
+# Groep: ITx1
 
 
 def kilometers_naar_miles(km):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    return(f"{kilometers} miles = {kilometers / 1.609344} kilometers")
 
 def miles_naar_kilometers(miles):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    return(f"{miles} miles = {miles * 1.609344} kilometers")
 
 kilometers = 1223
 miles = 867
